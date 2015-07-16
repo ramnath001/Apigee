@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="RaiseSpikeArrestFault">
+    <DisplayName>RaiseSpikeArrestFault</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+          <Payload contentType="application/json"> 
+           {
+		"errors":[{
+              "status": "401",
+      		"message": "Exceeded rate limit.",	
+      		"code": "40102",
+              "more_info": ""
+              }]}
+          </Payload>
+            <StatusCode>1500</StatusCode>
+            <ReasonPhrase>Server Error</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

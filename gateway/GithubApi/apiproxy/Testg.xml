@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="Testg">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedAt>1436294981955</CreatedAt>
+    <CreatedBy>equinix_lab@equinix.com</CreatedBy>
+    <Description>Testg</Description>
+    <DisplayName>Testg</DisplayName>
+    <LastModifiedAt>1436461932270</LastModifiedAt>
+    <LastModifiedBy>equinix_lab@equinix.com</LastModifiedBy>
+    <Policies>
+        <Policy>AddHeaderVariable</Policy>
+        <Policy>ExtractName</Policy>
+        <Policy>RaiseSpikeArrestFault</Policy>
+        <Policy>SpikeArrest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
