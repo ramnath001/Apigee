@@ -1,0 +1,88 @@
+{
+   "configurations":[
+      {
+         "name":"prodint",
+
+         "policies":[
+         ],
+         "proxies":[
+         ],
+         "targets":[
+         ]
+
+      },
+     {
+         "name":"testint",
+
+         "policies":[
+         ],
+         "proxies":[
+          ] ,
+         "targets":[
+         ]
+      },
+	  {
+         "name":"prodqa",
+
+         "policies":[
+         ],
+         "proxies":[
+         ],
+         "targets":[
+         ]
+
+      },
+     {
+         "name":"testqa",
+
+         "policies":[
+         ],
+         "proxies":[
+          ] ,
+         "targets":[
+         ]
+      },
+	  {
+         "name":"produat",
+
+         "policies":[
+         ],
+         "proxies":[
+         ],
+         "targets":[
+         ]
+
+      },
+     {
+         "name":"testuat",
+
+         "policies":[
+         ],
+         "proxies":[
+          ] ,
+         "targets":[
+         ]
+      },
+	  {
+         "name":"prodprod",
+
+         "policies":[
+         ],
+         "proxies":[
+         ],
+         "targets":[
+         ]
+
+      },
+     {
+         "name":"testprod",
+
+         "policies":[
+         ],
+         "proxies":[
+          ] ,
+         "targets":[
+         ]
+      }
+   ]
+}
